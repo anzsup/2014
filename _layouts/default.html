@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/Event" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>VSSUP 2014: {{ page.title }}</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- http://getbootstrap.com/customize/?id=6281218 -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/vssup.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:300,400,400italic,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- meta-data for google+ -->
+    <meta itemprop="name" content="VSSUP 2014">
+    <meta itemprop="description" content="The Victorian Summer School in Ultracold Physics, Melbourne, 2014.">
+    <link rel="canonical" href="http://www.vssup.org/">
+
+    <!-- meta-data for facebook -->
+    <meta property="og:title" content="Victorian Summer School in Ultracold Physics">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.vssup.org/">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="VSSUP 2014">
+</head>
+<body>
+
+    <div id="wrap">
+
+    <div class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+      <a class="navbar-brand" href="/">
+        <span class="vssup-abbrev">vssup</span> <span class="vssup-year">2014</span>
+      </a>
+      </div>
+      <ul class="nav navbar-nav">
+        {% assign pages_list = site.pages %}
+        {% assign group = 'navigation' %}
+        {% include pages_list %}
+      </ul>
+    </div>
+    </div>
+
+    <div class="container">
+
+    {{content}}
+
+    </div>
+
+    </div>
+
+    <div id="footer">
+      <div class="container">
+      <div class="row">
+      <div class="col-md-12">
+        <small>
+        <p class="text-muted credit">
+            &copy; Victorian Summer School in Ultracold Physics, 2014 |
+            Site by Bogdan Opanchuk.
+            Powered by <a href="http://jekyllrb.com/">Jekyll</a> and <a href="http://getbootstrap.com">Bootstrap</a>.
+        </p>
+        </small>
+      </div>
+      </div>
+      </div>
+    </div>
+</body>
+</html>

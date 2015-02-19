@@ -1,0 +1,4 @@
+safe: true
+lsi: false
+pygments: true
+exclude: ["README.rst", "vssup.sublime-prject", "vssup.sublime-workspace"]

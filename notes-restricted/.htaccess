@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "Restricted Area"
-AuthUserFile /home/content/49/7050749/html/notes-restricted/.htpasswd
-require valid-user
